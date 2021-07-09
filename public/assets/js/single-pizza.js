@@ -53,7 +53,7 @@ function printPizza(pizzaData) {
 }
 
 function printComment(comment) {
-  // make div to hold comment and subcomments
+  // make div to hold comment and sub comments
   const commentDiv = document.createElement('div');
   commentDiv.classList.add('my-2', 'card', 'p-2', 'w-100', 'text-dark', 'rounded');
 
